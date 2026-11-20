@@ -33,3 +33,8 @@ An interactive Streamlit analytics dashboard connected live to the Oracle PDB. I
 *   `docs/` - Phase deliverables (research, business process, normalization, data dictionary).
 *   `scripts/` - Python scripts for data quality checking.
 *   `innovation/` - Streamlit app code and documentation.
+## 3. Phase I – Business Process Modeling
+*   **Process Modeled:** Order Fulfillment and Anomaly Flagging Process
+*   **Modeling Tool:** draw.io (diagrams.net)
+*   **Published Diagram Link:** [https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&dark=auto#G12EL9N68xYNtwxG_dfGqb85h9q2TqcYqm](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&dark=auto#G12EL9N68xYNtwxG_dfGqb85h9q2TqcYqm)
+*   **Supporting Explanation:** [docs/business_process/business_process_explanation.pdf](docs/business_process/business_process_explanation.pdf)
