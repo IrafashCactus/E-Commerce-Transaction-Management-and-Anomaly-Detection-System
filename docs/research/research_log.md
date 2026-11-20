@@ -1,3 +1,10 @@
 ﻿# Research Log
 
-Record research questions, sources, findings, and decisions here.
+| # | Source (APA) | Type | Link | Key finding | Gap it shows |
+|---|---|---|---|---|---|
+| 1 | Olist. (2018). *Brazilian E-Commerce Public Dataset by Olist*. Kaggle. | Dataset | https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce | Provides 100k real anonymized e-commerce orders with payment and delivery data. | Lacks built-in anomaly detection or data quality flags. |
+| 2 | Chandola, V., Banerjee, A., & Kumar, V. (2009). Anomaly detection: A survey. *ACM Computing Surveys*, 41(3), 1-58. | Research Paper | https://doi.org/10.1145/1541880.1541882 | Surveys techniques for detecting rare events or outliers in datasets. | Most techniques are statistical; lacks focus on relational database-driven anomaly detection. |
+| 3 | Oracle. (2023). *PL/SQL Language Reference*. Oracle Database Documentation. | Technical Source | https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/ | Details how to write PL/SQL triggers and procedures for enforcing business rules. | Documentation is generic; does not provide e-commerce specific anomaly examples. |
+| 4 | McKinsey & Company. (2021). *The State of Fashion: Technology in E-commerce*. | Report | https://www.mckinsey.com/industries/retail/our-insights | Highlights that data quality and payment reconciliation are top operational challenges for e-commerce. | Does not provide open-source SQL solutions for SMEs to fix these issues. |
+| 5 | Kaur, H., & Singh, J. (2020). Anomaly detection in e-commerce transactions using machine learning. *IEEE Xplore*. | Research Paper | https://ieeexplore.ieee.org/ | Demonstrates that payment and delivery anomalies are best detected by rule-based models. | Relies on Python/Machine Learning rather than native database triggers. |
+| 6 | Shopify. (2023). *Fraud Filter and Risk Analysis*. Shopify Help Center. | Existing System | https://help.shopify.com/en/manual/payments/fraud-filter | Shopify uses automated rules to flag high-risk orders based on payment mismatches. | Proprietary and closed-source; cannot be used by custom database developers. |
